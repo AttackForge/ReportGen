@@ -50,7 +50,7 @@ This template will:
 - loop through every unique vulnerability
 - print the "title" of the vulnerability on a new line
 
-Using the ![test AttackForge project JSON export file](https://attackforge.com/attackforge-core-enterprise/report-templates/af-project-test-data.json) - the output DOCX report will include:
+Using the [test AttackForge project JSON export file](https://attackforge.com/attackforge-core-enterprise/report-templates/af-project-test-data.json) - the output DOCX report will include:
 ```
 Unrestricted Upload of File with Dangerous Type
 PHP Unsupported Version Detection
@@ -91,7 +91,7 @@ Now you will get a help printout in your ReportGen browser console for every int
 
 ![Available data for unique vulnerabilities](https://attackforge.com/images/reportgen-help-tags-2.png)
 
-Head over to ![Issues](https://github.com/AttackForge/ReportGen/issues) for more examples, to request a feature, raise a bug, or ask for help.
+Head over to [Issues](https://github.com/AttackForge/ReportGen/issues) for more examples, to request a feature, raise a bug, or ask for help.
 
 :heart:
 Team AttackForge
