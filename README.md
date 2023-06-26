@@ -15,7 +15,7 @@ Download ReportGen from your AttackForge product, or use the online version at h
 
 When you open ReportGen in your browser - start by selecting your AttackForge product (Community / Core / Enterprise) then select DOCX.
 
-![ReportGen homepage](https://attackforge.com/images/reportgen-home.png)
+<img width="2039" alt="image" src="https://github.com/AttackForge/ReportGen/assets/131424301/2620630e-5ea9-4643-bf35-a90633ee2c5d">
 
 On the ReportGen homepage, you will find links to the following:
 - Tags
@@ -38,7 +38,7 @@ On the ReportGen homepage, you will find links to the following:
   
 ReportGen includes many templates which are great for intermediate and advanced users, and might be tempting to start with. However we recommend first getting used to how the tool works and understanding the basics. After that, you can add your logic, styling and advanced features like charts and tables.
 
-![Templates](https://attackforge.com/images/reportgen-templates.png)
+<img width="2038" alt="image" src="https://github.com/AttackForge/ReportGen/assets/131424301/54b18d03-1ed7-4e32-91b2-fb52f0fdc787">
 
 Take the following template as an example:
 ```
@@ -79,7 +79,7 @@ Take the following template as an example:
 ```
 This template will print all of the available data - in your ReportGen browser console:
 
-![Available data](https://attackforge.com/images/reportgen-help-tags.png)
+<img width="2055" alt="image" src="https://github.com/AttackForge/ReportGen/assets/131424301/be0465d7-028c-4a3e-8964-d21d2a03df40">
 
 If you wanted to print the available data for every unique vulnerability as you are looping through each one, you can add the helper function inside the loop as follows:
 ```
@@ -89,7 +89,7 @@ If you wanted to print the available data for every unique vulnerability as you 
 ```
 Now you will get a help printout in your ReportGen browser console for every interation of the loop on unique vulnerabilities. Here you can see the data structure for every vulnerability:
 
-![Available data for unique vulnerabilities](https://attackforge.com/images/reportgen-help-tags-2.png)
+<img width="2056" alt="image" src="https://github.com/AttackForge/ReportGen/assets/131424301/c92ef036-a96b-4fb4-ace5-d10a818d51bb">
 
 Head over to [Issues](https://github.com/AttackForge/ReportGen/issues) for more examples, to request a feature, raise a bug, or ask for help.
 
