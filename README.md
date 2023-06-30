@@ -79,7 +79,7 @@ Take the following template as an example:
 ```
 This template will print all of the available data - in your ReportGen browser console:
 
-<img width="2055" alt="All report data" src="https://github.com/AttackForge/ReportGen/assets/131424301/da821234-a3c6-4115-85fd-72a26eb8e5c3">
+![all report data](https://github.com/AttackForge/ReportGen/assets/131424301/68e1093f-5db1-4382-bd0a-b104fefb98f3)
 
 If you wanted to print the available data for every unique vulnerability as you are looping through each one, you can add the helper function inside the loop as follows:
 ```
@@ -89,7 +89,7 @@ If you wanted to print the available data for every unique vulnerability as you 
 ```
 Now you will get a help printout in your ReportGen browser console for every interation of the loop on unique vulnerabilities. Here you can see the data structure for every vulnerability:
 
-<img width="2054" alt="vulns" src="https://github.com/AttackForge/ReportGen/assets/131424301/ae63e707-e4a8-4a0e-a7d8-d324d4800cd4">
+![vulns](https://github.com/AttackForge/ReportGen/assets/131424301/cb37558e-cc98-4f84-8127-672cb207c537)
 
 Head over to [Issues](https://github.com/AttackForge/ReportGen/issues) for more examples, to request a feature, raise a bug, or ask for help.
 
