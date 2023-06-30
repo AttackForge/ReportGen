@@ -75,21 +75,21 @@ Now that you know how to print the title of each vulnerability in your report, y
 
 Take the following template as an example:
 ```
-{$help["%()"]}
+{$help[All Report Data]["%()"]}
 ```
 This template will print all of the available data - in your ReportGen browser console:
 
-<img width="2055" alt="image" src="https://github.com/AttackForge/ReportGen/assets/131424301/be0465d7-028c-4a3e-8964-d21d2a03df40">
+<img width="2055" alt="All report data" src="https://github.com/AttackForge/ReportGen/assets/131424301/da821234-a3c6-4115-85fd-72a26eb8e5c3">
 
 If you wanted to print the available data for every unique vulnerability as you are looping through each one, you can add the helper function inside the loop as follows:
 ```
 {#vulnerabilities}
-{$help["%()"]}
+{$help[Vulnerability]["%()"]}
 {/}
 ```
 Now you will get a help printout in your ReportGen browser console for every interation of the loop on unique vulnerabilities. Here you can see the data structure for every vulnerability:
 
-<img width="2056" alt="image" src="https://github.com/AttackForge/ReportGen/assets/131424301/c92ef036-a96b-4fb4-ace5-d10a818d51bb">
+<img width="2054" alt="vulns" src="https://github.com/AttackForge/ReportGen/assets/131424301/ae63e707-e4a8-4a0e-a7d8-d324d4800cd4">
 
 Head over to [Issues](https://github.com/AttackForge/ReportGen/issues) for more examples, to request a feature, raise a bug, or ask for help.
 
