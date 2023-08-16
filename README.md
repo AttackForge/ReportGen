@@ -7,10 +7,10 @@ It works by combining a DOCX template with an AttackForge project JSON file, and
 
 For AttackForge Core and Enterprise users - you can upload your templates into your tenant for on-demand reports.
 
-## Tutorial
+# Tutorial
 If you are a first time user, we recommend watching this tutorial video: https://youtu.be/W3nKWOQBJGU
 
-## Getting Started
+# Getting Started
 Download ReportGen from your AttackForge product, or use the online version at https://attackforge.com/reportgen.html
 
 When you open ReportGen in your browser - start by selecting your AttackForge product (Community / Core / Enterprise) then select DOCX.
@@ -90,6 +90,26 @@ If you wanted to print the available data for every unique vulnerability as you 
 Now you will get a help printout in your ReportGen browser console for every interation of the loop on unique vulnerabilities. Here you can see the data structure for every vulnerability:
 
 ![vulns](https://github.com/AttackForge/ReportGen/assets/131424301/cb37558e-cc98-4f84-8127-672cb207c537)
+
+# Creating Automated Reports
+
+Looking to create automated reports in your existing code or scripts?
+
+Try the [ReportGen Library](https://www.npmjs.com/package/@attackforge/reportgen-node) or [ReportGen CLI](https://www.npmjs.com/package/@attackforge/reportgen-cli) - available on [NPM](https://www.npmjs.com/search?q=attackforge)
+
+<img width="2055" alt="1" src="https://github.com/AttackForge/ReportGen/assets/131424301/3ba93545-e116-43bb-aa01-22cee9b040e6">
+
+Creating automated and programatic reports is easy using ReportGen Library or CLI, for example:
+
+```
+> npx @attackforge/reportgen-cli
+Usage: reportgen [--output=output_file.docx] [--product=product] [--template=template_file.docx] [input_file.json]
+Options:
+--output=output_file.docx
+--product=community|core|enterprise
+--template=template_file.docx
+```
+
 
 Head over to [Issues](https://github.com/AttackForge/ReportGen/issues) for more examples, to request a feature, raise a bug, or ask for help.
 
