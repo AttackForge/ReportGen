@@ -75,7 +75,7 @@ Now that you know how to print the title of each vulnerability in your report, y
 
 Take the following template as an example:
 ```
-{$help[All Report Data]["%()"]}
+{$help[All Report Data][scope]}
 ```
 This template will print all of the available data - in your ReportGen browser console:
 
@@ -84,7 +84,7 @@ This template will print all of the available data - in your ReportGen browser c
 If you wanted to print the available data for every unique vulnerability as you are looping through each one, you can add the helper function inside the loop as follows:
 ```
 {#vulnerabilities}
-{$help[Vulnerability]["%()"]}
+{$help[Vulnerability][scope]}
 {/}
 ```
 Now you will get a help printout in your ReportGen browser console for every interation of the loop on unique vulnerabilities. Here you can see the data structure for every vulnerability:
