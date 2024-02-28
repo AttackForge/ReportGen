@@ -1,7 +1,7 @@
 # AttackForge ReportGen
 Welcome to the community for AttackForge ReportGen!
 
-AttackForge ReportGen is a free tool to help penetration testers create powerful and robust automated pentest reports.
+AttackForge ReportGen is a free tool to help penetration testers create powerful and robust automated custom pentest reports.
 
 It works by combining a DOCX template with an AttackForge project JSON file, and outputs a DOCX report.
 
@@ -12,8 +12,6 @@ If you are a first time user, we recommend watching this tutorial video: https:/
 
 # Getting Started
 Download ReportGen from your AttackForge product, or use the online version at https://attackforge.com/reportgen.html
-
-When you open ReportGen in your browser - start by selecting your AttackForge product (Community / Core / Enterprise) then select DOCX.
 
 <img width="2039" alt="image" src="https://github.com/AttackForge/ReportGen/assets/131424301/2620630e-5ea9-4643-bf35-a90633ee2c5d">
 
